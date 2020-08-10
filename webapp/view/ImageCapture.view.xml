@@ -1,0 +1,13 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="App.CameraFunctionality.controller.ImageCapture" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="ImageCapture">
+				<content>
+					<Button type="Accept" icon="sap-icon://camera" text="Take a pic!" press="capturePic"/>
+					<VBox id="vbox1"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
