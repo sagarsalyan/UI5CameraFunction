@@ -144,7 +144,7 @@ sap.ui.define([
 						oContext.drawImage(imageValue, 0, 0, snapShotCanvas.width, snapShotCanvas.height);
 						var imageData = snapShotCanvas.toDataURL('image/png');
 						var imageBase64 = imageData.substring(imageData.indexOf(",") + 1)
-							// window.open(imageData);
+						// window.open(imageData);
 						download(imageData, fileName + ".png", "image/png");
 
 						// Case 2
